@@ -1,6 +1,6 @@
 # Si702x_Driver
 Silicon Labs Si7020/21 I2C Relative Humidity and Temperature Sensor Driver.
-1. Override the weak read and write functions according to platform.
+1. Override the weak read and write functions according to platform. (Default functions implemented for STM32)
     *   ```void si702x_read(uint16_t addr, uint8_t addr_len, uint8_t *data, uint8_t len)```
     *   ```void si702x_write(uint16_t addr, uint8_t addr_len, uint8_t *data, uint8_t len)```
 1. Init the driver with handler.
